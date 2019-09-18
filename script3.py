@@ -8,12 +8,11 @@ class github:
     self.name_list=[]
     self.repo_list=[]
   def get_user_and_repositry(self):
-    
-      self.name=str(input("Enter the Username: "))
-      self.name_list.append(self.name)
+    self.name=str(input("Enter the Username: "))
+    self.name_list.append(self.name)
 
-      self.repositry=str(input("Enter the Repositry Name: "))
-      self.repo_list.append(self.repositry)
+    self.repositry=str(input("Enter the Repositry Name: "))
+    self.repo_list.append(self.repositry)
     
   def get_urls(self):
     headers = {'Accept': 'application/vnd.github.preview'}
